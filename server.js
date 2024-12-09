@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Route to serve the HTML file
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "public", "index(5).html"));
 });
 
 // Start the server
